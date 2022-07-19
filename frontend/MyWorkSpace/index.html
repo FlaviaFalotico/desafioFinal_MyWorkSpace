@@ -20,7 +20,7 @@
             <div class="login-form-wrapper">
                 <div class="login-title">
                     <h2>Entrar</h2>                 
-                    <a href="views/register.html" target="blank">Cadastrar-se</a>                    
+                    <a href="views/register.html">Cadastrar-se</a>                    
                 </div>
                 <form>
                     <div class="mb-3">
@@ -31,12 +31,18 @@
                       <label for="senha" class="form-label">Senha</label>
                       <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
                     </div>
-                    <button type="submit" class="btn">Login</button>
+                    <button type="button" class="btn">Login</button>
                   </form>
             </div>
         </div>
     </div>
     <script src="plugins/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
     <script src="plugins/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+    <script> 
+        let button = document.querySelector('form button')
+        button.addEventListener("click", () => {
+            location.href = "views/dashboard.html"
+        })
+    </script>
 </body>
 </html>

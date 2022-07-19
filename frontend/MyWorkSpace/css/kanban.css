@@ -1,0 +1,31 @@
+ .cursor-grab {
+    cursor: -webkit-grab;
+    cursor:auto;
+  }
+  
+.tasks {
+  min-height: 450px;
+}
+
+.kanban-tasks .container py-5 .card mb-3{
+  color:black;
+}
+
+.card-body .btn{
+  border: 5px solid red;
+  color:#fff;
+  font-weight: bold;
+  border: none;
+  background: linear-gradient(.25turn,#560bad, #7209b7, #b5179e, #f72585);
+  box-shadow: 5px 5px 2px 1px rgba(132, 0, 255, 0.2);
+}
+
+.card-body .btn:hover{
+  color: #fff;
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+.card-header bg-light .card-title h5 mb-1{
+  border: 5px solid red;
+}

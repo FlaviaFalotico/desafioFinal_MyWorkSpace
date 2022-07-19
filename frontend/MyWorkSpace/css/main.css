@@ -7,8 +7,8 @@ main {
 main .main-content {
     padding: 30px;
     width: 100%;
-    height: calc(100% - 100px - 100px);
- 
+    height: calc(100% - 100px);
+    align-items: center;
 }
 
 main .main-content .cards-row{
@@ -16,6 +16,12 @@ main .main-content .cards-row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+main .main-content .logo-dashboard img{
+    
+    margin-left: calc(100% - 65%);
+    margin-top: calc(100% - 90%);
 }
 
 main .main-content .cards-row .cards{
@@ -55,4 +61,15 @@ main .main-content button:hover {
     color: #fff;
     transform: scale(1.10);
     transition: .2s;
+}
+
+main .main-content .return-projects a {
+    text-decoration: none;
+    color:#fff;
+}
+
+main .main-content .return-projects a:hover {
+    color:#f72585;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px #fff;
 }
