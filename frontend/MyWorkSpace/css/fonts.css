@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Arima';
+    src: url(../fonts/Arima/Arima-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Arima';
+    src: url(../fonts/Arima/Arima-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Arima';
+    src: url(../fonts/Arima/Arima-Light.ttf);
+    font-weight: 300;
+}
