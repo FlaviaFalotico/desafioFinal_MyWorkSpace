@@ -1,0 +1,26 @@
+.flex-dashboard header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    color: #fff;
+    background-color: #001d3d;
+    padding: 0 30px;
+    -webkit-box-shadow: 6px 1px 5px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 6px 1px 5px 0px rgba(255,255,255,1);
+    box-shadow: 6px 1px 5px 0px rgba(255,255,255,1);
+}
+
+.flex-dashboard header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;    
+}
+
+.flex-dashboard header a:hover {
+    color: #f72585;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px #fff;
+}
